@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poiret_One';
+    src: url(/fuentes/Poiret_One/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Satisfy';
+    src: url(/fuentes/Satisfy/Satisfy-Regular.ttf);
+}
+body {
+    /*background-image: url(fotos/fotoinfo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;*/
+    background-color: rgb(141, 73, 73);
+}
+.menu {
+    height: 250px;
+    position: relative;
+    box-shadow: 15px 5px 25px;
+    z-index: 5;
+
+}
+
+.titulo {
+    position: absolute;
+    font-family:'Satisfy';
+    top: 30px;
+    font-size: 2em;
+    left: 60px;
+    color: black;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+
+}
+
+.navegador {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.navegador a{
+    text-decoration: none;
+    font-family:'Poiret_One';
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.btn:hover {
+    color: black;
+    box-shadow: 5px 10px 25px;
+    background-color: white;
+    transition-duration: 1.3s;
+}
+.formulario {
+    text-align: center;
+    font-family:'Poiret_One';
+    font-size: 1.3rem;
+
+}
+
+.btn {
+    width: 150px;
+    border-radius: 10px;
+    border-color: white;
+}
+.contacto_propio {
+    padding-top: 50px;
+    text-align: center;
+    font-family:'Poiret_One';
+    font-size: 1.5rem;
+    height: 300px;
+
+}
+#contacto {
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-family:'Poiret_One';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.form_text{
+    border-radius: 5px;
+}
